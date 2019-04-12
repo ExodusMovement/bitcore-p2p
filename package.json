@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-p2p",
+  "name": "@exodus/bitcore-p2p",
   "version": "1.1.1",
   "description": "Interface to the bitcoin P2P network for bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -11,37 +11,14 @@
     "build": "gulp"
   },
   "contributors": [
-    {
-      "name": "Yemel Jardi",
-      "email": "yemel@bitpay.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Eric Martindale",
-      "email": "eric@bitpay.com"
-    },
-    {
-      "name": "Philip Hutchins",
-      "email": "philip@bitpay.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "maraoz@bitpay.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Elichai Turkel"
-    }
+    "Yemel Jardi <yemel@bitpay.com>",
+    "Braydon Fuller <braydon@bitpay.com>",
+    "Ryan X. Charles <ryan@bitpay.com>",
+    "Eric Martindale <eric@bitpay.com>",
+    "Philip Hutchins <philip@bitpay.com>",
+    "Manuel Araoz <maraoz@bitpay.com>",
+    "Esteban Ordano <eordano@gmail.com>",
+    "Elichai Turkel"
   ],
   "keywords": [
     "bitcoin",
@@ -49,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "git+https://github.com/bitpay/bitcore-p2p.git"
   },
   "dependencies": {
     "@exodus/bitcore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
-    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
+    "buffers": "github:bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
@@ -64,5 +41,14 @@
     "gulp": "^3.8.10",
     "sinon": "^1.12.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-p2p/issues"
+  },
+  "homepage": "https://github.com/bitpay/bitcore-p2p#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  }
 }
