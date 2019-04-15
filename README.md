@@ -1,4 +1,10 @@
-<img src="http://bitcore.io/css/images/bitcore-p2p.svg" alt="bitcore payment protocol" height="35" width="102">
+NOTE: Exodus uses the following package:
+https://www.npmjs.com/package/@exodus/bitcore-p2p
+
+Which is published from the following branch of this repo:
+https://github.com/ExodusMovement/bitcore-p2p/tree/use-exodus-bitcore-lib
+
+=======
 
 Bitcore P2P
 =======
