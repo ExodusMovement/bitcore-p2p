@@ -106,23 +106,6 @@ describe('Peer', function() {
     peer.port.should.equal(8111);
   });
 
-  it('set a proxy', function() {
-    var peer, peer2, socket;
-
-    peer = new Peer('localhost');
-    expect(peer.proxy).to.be.undefined();
-    socket = peer._getSocket();
-    socket.should.be.instanceof(Net.Socket);
-
-    peer2 = peer.setProxy('127.0.0.1', 9050);
-    peer2.proxy.host.should.equal('127.0.0.1');
-    peer2.proxy.port.should.equal(9050);
-    socket = peer2._getSocket();
-    socket.should.be.instanceof(Socks5Client);
-
-    peer.should.equal(peer2);
-  });
-
   it('send pong on ping', function(done) {
     var peer = new Peer({host: 'localhost'});
     var pingMessage = messages.Ping();

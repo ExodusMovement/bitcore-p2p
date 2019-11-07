@@ -54,8 +54,7 @@
   "dependencies": {
     "@exodus/bitcore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
-    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
-    "socks5-client": "^0.3.6"
+    "buffers": "bitpay/node-buffers#v0.1.2-bitpay"
   },
   "devDependencies": {
     "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
